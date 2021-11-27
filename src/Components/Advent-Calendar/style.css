@@ -1,4 +1,10 @@
-.box {
+.box-main-container {
+    position: relative;
+}
+
+.box-image {
+    position: absolute;
+    top: 0;
     width: 150px;
     height: 150px;
 }
