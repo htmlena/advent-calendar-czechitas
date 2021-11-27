@@ -57,6 +57,7 @@ function App() {
     <Col key={22}><Box data={adventBoxes[22]}></Box>  </Col>
     <Col key={23}><Box data={adventBoxes[23]}></Box>  </Col>
     </Row>
+  
       </Container>
        
  </>
