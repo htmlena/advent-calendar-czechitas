@@ -18,9 +18,9 @@ const Box = (props) => {
         <div className={isToggleOn ? "is-flipped card" : "card"} onClick={handleClick}>
           <Image rounded className="box-image card__face card__face--front" src={props.data.img} alt={`Adventní okénko číslo ${props.data.number}` }/>
           <div class="card__face card__face--back">
-          <div className="box-text">
-        <p>{props.data.text}</p>
-        </div>
+            <div className="box-text">
+              <p class="text">{props.data.text}</p>
+            </div>
           </div>
         </div>
       </div>

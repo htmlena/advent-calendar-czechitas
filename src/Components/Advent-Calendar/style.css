@@ -42,6 +42,10 @@
     width: 100%;
     top: 30px;
     z-index: 2;
+    background-color: white;
+}
+
+.text {
     font-size: 0.8rem;
     text-align: center;
     font-weight: 600;
