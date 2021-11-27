@@ -6,10 +6,20 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+@media screen and (min-width: 700px) {
 .row-margin {
 margin-left: 0.5rem;
 margin-bottom:1rem;
 }
+}
+
+@media screen and (max-width: 700px) {
+  .row-margin {
+  margin-left: 0.1rem;
+  margin-bottom:2rem;
+  }
+  }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
