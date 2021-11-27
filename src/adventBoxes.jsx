@@ -44,7 +44,7 @@ const adventBoxes = [
       {
         number: 8,
         img: "/public/czechitas-advent-images/8.jpg",
-        text: "",
+        text: "V zimě dokonce i zebe. V létě je ho plné nebe. Na obzoru beránky, z rána jako za večera proměňuje červánky. Co je to? ",
         open: false
       },
       {
