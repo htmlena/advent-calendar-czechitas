@@ -4,8 +4,9 @@ const Box = (props) => {
   return (
     <>
       <p>
-        {props.data.number} {props.data.img} {props.data.text}
+        {props.data.number}{props.data.text}
       </p>
+      <img src={props.data.img} alt={`Adventní okénko číslo ${props.data.number}` }></img>
     </>
   );
 };
