@@ -1,13 +1,8 @@
 import './App.css';
 import React, { useState } from 'react';
 import { adventBoxes } from './adventBoxes';
-<<<<<<< HEAD
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-=======
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
->>>>>>> f376cd6 (zmena)
 import Box from './Components/Advent-Calendar';
 import ActualDate from './Components/ActualDate';
 
