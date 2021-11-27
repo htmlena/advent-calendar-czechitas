@@ -2,8 +2,18 @@
     position: relative;
 }
 
+.box-number {
+    /* position: absolute; */
+    z-index: 1;
+}
+
+.box-text {
+    
+}
+
 .box-image {
     position: absolute;
+    z-index: -1;
     top: 0;
     width: 150px;
     height: 150px;
