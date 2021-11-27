@@ -4,17 +4,6 @@
     height: 150px;
 }
 
-.box-main-container--open {
-
-}
-
-.box-main-container--closed {
-    background-image: url(/src/Components/Advent-Calendar/back.png);
-    width: 150px;
-    height: 150px;
-
-}
-
 .box-number-container {
     position: absolute;
     z-index: 1;
@@ -42,6 +31,11 @@
     width: 100%;
     top: 30px;
     z-index: 2;
+    background-color: white;
+    opacity: 0.8;
+}
+
+.text {
     font-size: 0.8rem;
     text-align: center;
     font-weight: 600;
