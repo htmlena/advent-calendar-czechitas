@@ -20,7 +20,7 @@ function App() {
       <Row>
         {adventBoxes.map((adventBox) => {
           return <Box data={adventBox} key={adventBox.number} />;
-        })};
+        })}
       </Row>
       </Container>
     </>

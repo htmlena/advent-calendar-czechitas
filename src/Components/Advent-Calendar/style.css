@@ -1,15 +1,50 @@
 .box-main-container {
     position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.box-main-container--open {
+
+}
+
+.box-main-container--closed {
+    background-image: url(/src/Components/Advent-Calendar/back.png);
+    width: 150px;
+    height: 150px;
+
+}
+
+.box-number-container {
+    position: absolute;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 50%;
 }
 
 .box-number {
-    /* position: absolute; */
+    position: absolute;
+    top: 4px;
+    left: 6px;
     z-index: 1;
     color: #34A65F;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
 }
 
 .box-text {
-    
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    top: 30px;
+    z-index: 2;
+    font-size: 0.8rem;
+    text-align: center;
+    font-weight: 600;
 }
 
 .box-image {
@@ -18,4 +53,30 @@
     top: 0;
     width: 150px;
     height: 150px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card.is-flipped {
+    transform: rotateY(180deg);
+}
+
+.card__face {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+.card__face--back {
+    background-color: red;
+    background-image: linear-gradient(45deg, white 25%, transparent 25.5%, transparent 50%, white 50.5%, white 75%, transparent 75.5%, transparent);
+    background-size: 20px 20px;
+    transform: rotateY( 180deg );
 }
