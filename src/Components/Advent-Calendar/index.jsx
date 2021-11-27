@@ -3,6 +3,8 @@ import './style.css'
 import Image from 'react-bootstrap/Image'
 import Col from 'react-bootstrap/Col'
 
+import Col from 'react-bootstrap/Col'
+
 const Box = (props) => {
   return (
     <Col>
@@ -15,7 +17,7 @@ const Box = (props) => {
         </div>
         <Image rounded className="box-image" src={props.data.img} alt={`Adventní okénko číslo ${props.data.number}` }/>
       </div>
-    </Col>
+    </Col>   
   );
 };
 
