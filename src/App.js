@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Box from './Components/Advent-Calendar';
 import ActualDate from './Components/ActualDate';
+import Countdown from './Components/Countdown';
 
 function App() {
   const [isOpen, setIsOpen] = useState();
@@ -17,6 +18,7 @@ function App() {
   return (
     <>
       <h1>Adventní kalendář - Elf on the Shelf</h1>
+      <Countdown />
       <ActualDate />
       <Container fluid>
         <Row className="row-margin" key={0}>
