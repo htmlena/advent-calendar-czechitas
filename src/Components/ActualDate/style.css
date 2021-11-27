@@ -1,0 +1,10 @@
+.ActualDate {
+  display: block;
+  text-align: center;
+  padding-top: 5px;
+  color: green;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
