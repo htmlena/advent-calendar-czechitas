@@ -50,49 +50,49 @@ const adventBoxes = [
       {
         number: 9,
         img: '/public/czechitas-advent-images/9.jpg',
-        text: "",
+        text: "Pošli vánoční pohled.",
         open: false
       },
       {
         number: 10,
         img: '/public/czechitas-advent-images/10.jpg',
-        text: "",
+        text: "Sněz tři šušenky.",
         open: false
       },
       {
         number: 11,
         img: '/public/czechitas-advent-images/11.jpg',
-        text: "",
+        text: "Napiš vánoční přání.",
         open: false
       },
       {
         number: 12,
         img: '/public/czechitas-advent-images/12.jpg',
-        text: "",
+        text: "Pozoruj noční oblohu.",
         open: false
       },
       {
         number: 13,
         img: '//public/czechitas-advent-images/13.jpg',
-        text: "",
+        text: "Zabal vánoční dárek",
         open: false
       },
       {
         number: 14,
         img: '/public/czechitas-advent-images/14.jpg',
-        text: "",
+        text: "Ukliď si svoje hračky.",
         open: false
       },
       {
         number: 15,
         img: '/public/czechitas-advent-images/15.jpg',
-        text: "",
+        text: "Vysřihni vločku z papíru.",
         open: false
       },
       {
         number: 16,
         img: '/public/czechitas-advent-images/16.jpg',
-        text: "",
+        text: "Přečti si pohádku.",
         open: false
       },
       {
