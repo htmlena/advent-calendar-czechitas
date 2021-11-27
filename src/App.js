@@ -20,11 +20,13 @@ function App() {
 
   return (
     <>
-        <Container fluid>
+          <ActualDate />
+
+            <Container fluid>
     <Row>
       {adventBoxes.map((adventBox) => {
         return <Box data={adventBox} key={adventBox.number} />;
-      })};
+      })}
       </Row>
       </Container>
     </>
@@ -32,5 +34,3 @@ function App() {
 }
 
 export default App;
-
-
