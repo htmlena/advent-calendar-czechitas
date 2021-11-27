@@ -26,7 +26,7 @@ const Box = (props) => {
         />
         <div className="card__face card__face--back">
           <div className="box-text">
-            <p>{props.data.text}</p>
+            <p className="text">{props.data.text}</p>
           </div>
         </div>
       </div>
