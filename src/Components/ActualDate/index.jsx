@@ -9,7 +9,7 @@ const ActualDate = () => {
 
   return (
     <div className="ActualDate">
-      <h1>Dnes je: {date}</h1>
+      <h2>Dnes je: {date}</h2>
     </div>
   );
 };
