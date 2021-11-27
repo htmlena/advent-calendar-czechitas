@@ -2,49 +2,49 @@ const adventBoxes = [
     {
         number: 1,
         img: "/public/czechitas-advent-images/1.jpg",
-        text: "",
+        text: "Venku je to jako hora a v chalupě jako voda.",
         open: false
       },
     {
         number: 2,
         img: "/public/czechitas-advent-images/2.jpg",
-        text: "",
+        text: "V jakém měsíci jsou Vánoce? ",
         open: false
       },
      {
         number: 3,
         img: "/public/czechitas-advent-images/3.jpg",
-        text: "",
+        text: "Jak se říká písním, které zpíváme na Vánoce?",
         open: false
       },
       {
         number: 4,
         img: "/public/czechitas-advent-images/4.jpg",
-        text: "",
+        text: "Jsme na obloze, jsou nás miliony. Planety však nejsme.. Co jsme? ",
         open: false
       },
       {
         number: 5,
         img: "/public/czechitas-advent-images/5.jpg",
-        text: "",
+        text: "Pod stromečkem na nás každoročně čeká? ",
         open: false
       },
       {
         number: 6,
         img: "/public/czechitas-advent-images/6.jpg",
-        text: "",
+        text: "Co se na Vánoce zdobí ozdobami a světýlky? ",
         open: false
       },
       {
         number: 7,
         img: "/public/czechitas-advent-images/7.jpg",
-        text: "",
+        text: "Jaké ovoce se rozkrajuje, abychom našli hvězdičku?",
         open: false
       },
       {
         number: 8,
         img: "/public/czechitas-advent-images/8.jpg",
-        text: "",
+        text: "V zimě dokonce i zebe. V létě je ho plné nebe. Na obzoru beránky, z rána jako za večera proměňuje červánky. Co je to? ",
         open: false
       },
       {
