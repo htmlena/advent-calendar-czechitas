@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.css'
 import Image from 'react-bootstrap/Image'
 
 const Box = (props) => {
@@ -7,7 +8,7 @@ const Box = (props) => {
       <p>
         {props.data.number}{props.data.text}
       </p>
-      <Image rounded src={props.data.img} alt={`Adventní okénko číslo ${props.data.number}` }/>
+      <Image rounded className="box" src={props.data.img} alt={`Adventní okénko číslo ${props.data.number}` }/>
     </>
   );
 };
