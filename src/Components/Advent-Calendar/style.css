@@ -5,6 +5,7 @@
 .box-number {
     /* position: absolute; */
     z-index: 1;
+    color: #34A65F;
 }
 
 .box-text {
