@@ -31,7 +31,7 @@ export const adventBoxes = [
   },
   {
     number: 6,
-    img: '/czechitas-advent-images/6.jpeg',
+    img: '/czechitas-advent-images/25.jpeg',
     text: 'Co se na Vánoce zdobí ozdobami a světýlky? ',
     open: false,
   },
@@ -61,7 +61,7 @@ export const adventBoxes = [
   },
   {
     number: 11,
-    img: '/czechitas-advent-images/11.jpeg',
+    img: '/czechitas-advent-images/27.jpeg',
     text: 'Napiš vánoční přání.',
     open: false,
   },

@@ -11,7 +11,6 @@ const Box = (props) => {
   }
   
   return (
-    <Col>
       <div className="box-main-container">
         <div className="box-number-container">
           <p className="box-number">{props.data.number}</p>
@@ -25,7 +24,6 @@ const Box = (props) => {
           </div>
         </div>
       </div>
-    </Col>
   );
 };
 
