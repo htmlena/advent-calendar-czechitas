@@ -5,7 +5,6 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Box from './Components/Advent-Calendar';
 import ActualDate from './Components/ActualDate';
-import Col from 'react-bootstrap/Col'
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
           return <Box data={adventBox} key={adventBox.number} />;
         })};
       </Row>
-      
       </Container>
     </>
   );
