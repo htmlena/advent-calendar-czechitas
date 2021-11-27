@@ -15,7 +15,7 @@ function App() {
       <Countdown />
       <ActualDate />
       <Container fluid>
-        <Row className="row-margin" key={0}>
+        <Row sm={2} xs={10} md={6} className="row-margin"  key={0}>
           <Col key={0}>
             <Box data={adventBoxes[0]}/>
           </Col>
@@ -36,7 +36,7 @@ function App() {
           </Col>
         </Row>
 
-        <Row className="row-margin" key={1}>
+        <Row sm={2} xs={10} md={6} className="row-margin"  key={1}>
           <Col key={6}>
             <Box data={adventBoxes[6]}/>
           </Col>
@@ -57,7 +57,7 @@ function App() {
           </Col>
         </Row>
 
-        <Row className="row-margin" key={2}>
+        <Row sm={2} xs={10} md={6} className="row-margin"  key={2}>
           <Col key={12}>
             <Box data={adventBoxes[12]}/>
           </Col>
@@ -78,7 +78,7 @@ function App() {
           </Col>
         </Row>
 
-        <Row className="row-margin" key={3}>
+        <Row sm={2} xs={10} md={6} className="row-margin"  key={3}>
           <Col key={18}>
             <Box data={adventBoxes[18]}/>
           </Col>

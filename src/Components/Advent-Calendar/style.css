@@ -2,6 +2,25 @@
     position: relative;
     width: 150px;
     height: 150px;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .box-main-container {
+        margin-bottom: 3rem;
+    }
+    }
+
+
+.box-main-container--open {
+
+}
+
+.box-main-container--closed {
+    background-image: url(/src/Components/Advent-Calendar/back.png);
+    width: 150px;
+    height: 150px;
+
 }
 
 .box-number-container {
