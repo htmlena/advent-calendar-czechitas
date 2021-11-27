@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const Countdown = () => {
   const today = new Date();
@@ -14,7 +14,7 @@ const Countdown = () => {
 
   return (
     <div className="Countdown">
-      <h1>Do Vanoc zbyva: {diffDays} dnu</h1>
+      <h1>Do Vánoc zbývá: {diffDays} dnu</h1>
     </div>
   );
 };
