@@ -1,8 +1,11 @@
 import React from 'react';
 import './style.css'
 import Image from 'react-bootstrap/Image'
+<<<<<<< HEAD
 import Col from 'react-bootstrap/Col'
 
+=======
+>>>>>>> 5536a33 (change)
 import Col from 'react-bootstrap/Col'
 
 const Box = (props) => {
