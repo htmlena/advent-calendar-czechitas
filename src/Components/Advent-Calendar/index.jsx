@@ -5,7 +5,6 @@ import Col from 'react-bootstrap/Col'
 
 const Box = (props) => {
   return (
-    <Col>
       <div className="box-main-container">
         <div className="box-number">
           <p>{props.data.number}</p>
@@ -15,7 +14,6 @@ const Box = (props) => {
         </div>
         <Image rounded className="box-image" src={props.data.img} alt={`Adventní okénko číslo ${props.data.number}` }/>
       </div>
-    </Col>   
   );
 };
 
