@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'react-bootstrap/Image'
 
 const Box = (props) => {
   return (
@@ -6,7 +7,7 @@ const Box = (props) => {
       <p>
         {props.data.number}{props.data.text}
       </p>
-      <img src={props.data.img} alt={`Adventní okénko číslo ${props.data.number}` }></img>
+      <Image rounded src={props.data.img} alt={`Adventní okénko číslo ${props.data.number}` }/>
     </>
   );
 };
