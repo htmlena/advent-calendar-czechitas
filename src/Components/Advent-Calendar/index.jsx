@@ -6,7 +6,11 @@ const Box = (props) => {
   const [isOpen, setIsOpen] = useState();
 
   const handleClick = () => {
-    setIsOpen(!isOpen);
+    const currentDate = new Date();
+    const currentDay = `${currentDate.getDay()}`;
+    if (props.data.number === currentDay) {
+      setIsOpen(!isOpen);
+    } else return console.log('hi');
   };
 
   return (
