@@ -7,10 +7,10 @@ const Box = (props) => {
 
   const handleClick = () => {
     const currentDate = new Date();
-    const currentDay = `${currentDate.getDay()}`;
+    const currentDay = currentDate.getDate();
     if (props.data.number === currentDay) {
       setIsOpen(!isOpen);
-    } else return console.log('hi');
+    } else return alert('Ještě chvíli počkej!');
   };
 
   return (
